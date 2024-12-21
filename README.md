@@ -6,6 +6,10 @@
 
 如果你对这个项目的代码有任何问题或者建议，欢迎提Issue/Pr。
 
+## 开发环境
+
+- .NET 8.0
+- Visual Studio 2022
 
 ## 本项目使用的开源项目
 
@@ -14,9 +18,13 @@
 - [Kino.Toolkit.Wpf](https://github.com/DinoChan/Kino.Toolkit.Wpf)
 - Microsoft.Expression.Blend.Sdk
 - [Prism.DryIoc](https://github.com/PrismLibrary/Prism)
+- [Microsoft.Extensions.Configuration](https://dot.net/)
+- [Microsoft.Extensions.Configuration.Binder](https://dot.net/)
+- [Microsoft.Extensions.Configuration.Json](https://dot.net/)
 
 ## TODO
 
 - [ ] 增加Windows 7/8.1/10的Windows Update界面
+- [ ] 参考[Kino.Toolkit.Wpf](https://github.com/DinoChan/Kino.Toolkit.Wpf)并重写ProgressRing
 - [x] 增加多语言支持
 - [x] 允许调整更新时长和软件主题色
