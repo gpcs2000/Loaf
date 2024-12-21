@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
+    <Authors>GPC</Authors>
+    <Copyright>copyright © GPC 2024</Copyright>
+    <PackageProjectUrl>https://github.com/gpcs2000/Loaf</PackageProjectUrl>
+    <PackageIcon>logo.jpg</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\FluentSystemIcons-Regular.ttf" />
+    <None Remove="Assets\FontAwesome.otf" />
+    <None Remove="Assets\relaxing_dark.png" />
+    <None Remove="Assets\relaxing_dark1.png" />
+    <None Remove="Assets\relaxing_light.png" />
+    <None Remove="Assets\relaxing_light1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\FluentSystemIcons-Regular.ttf" />
+    <Resource Include="Assets\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="iNKORE.UI.WPF" Version="1.2.7.1" />
+    <PackageReference Include="iNKORE.UI.WPF.Emojis" Version="0.3.6.4" />
+    <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.9.30" />
+    <PackageReference Include="Kino.Toolkit.Wpf" Version="1.5.0" />
+    <PackageReference Include="Microsoft.Expression.Blend.SDK.WPF" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
+    <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\relaxing_dark.png" />
+    <Resource Include="Assets\relaxing_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Assets\FontAwesome.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Title" xml:space="preserve">
+    <value>摸鱼</value>
+  </data>
+  <data name="Header1" xml:space="preserve">
+    <value>这是一个摸鱼应用</value>
+  </data>
+  <data name="Header2" xml:space="preserve">
+    <value>其实这是一个玩笑</value>
+  </data>
+  <data name="Star" xml:space="preserve">
+    <value>给个好评</value>
+  </data>
+  <data name="Content1" xml:space="preserve">
+    <value>点击“开始摸鱼”按钮后应用会显示一个 Windows Update 界面，让你的老板以为你的电脑正在升级。</value>
+  </data>
+  <data name="Content2" xml:space="preserve">
+    <value>这时候你就可以休息以下，优雅地喝一杯咖啡。</value>
+  </data>
+  <data name="ToolTip" xml:space="preserve">
+    <value>关于与设置</value>
+  </data>
+  <data name="Content3" xml:space="preserve">
+    <value>不要有内疚感，适当的休息可以让你的大佬重新充满活力，能面对更多挑战，更高效地完成工作。</value>
+  </data>
+  <data name="ButtonContent" xml:space="preserve">
+    <value>开始摸鱼</value>
+  </data>
+  <data name="ButtonTip" xml:space="preserve">
+    <value>点击进入全屏，可以按 Esc 键退出</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="Expander1Title" xml:space="preserve">
+    <value>已知问题</value>
+  </data>
+  <data name="Expander1SubTitle" xml:space="preserve">
+    <value>当前应用的已知问题</value>
+  </data>
+  <data name="Question1" xml:space="preserve">
+    <value>Q：不能应付多屏幕</value>
+  </data>
+  <data name="Question2" xml:space="preserve">
+    <value>Q：不能隐藏鼠标指针</value>
+  </data>
+  <data name="Answer1" xml:space="preserve">
+    <value>A：关闭多余的显示器，让他们也休息一下。</value>
+  </data>
+  <data name="Answer2" xml:space="preserve">
+    <value>A：(已解決)将鼠标移动到屏幕的右边或下面，躲起来。</value>
+  </data>
+  <data name="Expander2Title" xml:space="preserve">
+    <value>应用主题</value>
+  </data>
+  <data name="Expander2SubTitle" xml:space="preserve">
+    <value>选择要显示的应用主题</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>浅色</value>
+  </data>
+  <data name="Dark" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>使用系统设置</value>
+  </data>
+  <data name="Expander3Title" xml:space="preserve">
+    <value>模拟时长</value>
+  </data>
+  <data name="Expander3SubTitle" xml:space="preserve">
+    <value>设定摸鱼的时长</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>时</value>
+  </data>
+  <data name="FullScreenTitle" xml:space="preserve">
+    <value>正在进行更新</value>
+  </data>
+  <data name="FullScreenSubTitle" xml:space="preserve">
+    <value>请保持计算机打开状态</value>
+  </data>
+  <data name="FullScreenFooter" xml:space="preserve">
+    <value>计算机可能会重启几次</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value> © 2024 GPC，基于 dino.c的项目</value>
+  </data>
+</root>
